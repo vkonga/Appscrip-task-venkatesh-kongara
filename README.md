@@ -1,3 +1,11 @@
+# Clone Repository
+git clone https://github.com/vkonga/Appscrip-task-venkatesh-kongara
+cd appscrip-frontend
+In Terminal run: npm start
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
