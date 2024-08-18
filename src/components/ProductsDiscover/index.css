@@ -1,0 +1,102 @@
+@media screen and (max-width:600px){
+    .productsdiscover-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .discoverproducts-heading{
+        color: black;
+        font-size: 38px;
+        font-weight: 600;
+        font-family: "Roboto";
+        margin-bottom: 0px;
+    }
+    .discoverproducts-description{
+        color: black;
+        font-size: 18px;
+    
+    }
+    .home{
+        color: rgba(191, 200, 205, 1);
+        size: 12px;
+
+    }
+    .line{
+        color: rgba(191, 200, 205, 1);
+        height: 14px;
+        width: 3px;
+        font-weight: 400;
+    }
+    .shop{
+        color: rgba(37, 32, 32, 1);
+        size: 12px;
+        font-weight: 400;
+
+    }
+    .home-shop{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    }
+@media screen and (min-width:601px) and (max-width:900px){
+    .productsdiscover-container{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .discoverproducts-heading{
+        color: black;
+        font-size: 38px;
+        font-weight: 600;
+        font-family: "Roboto";
+        margin-bottom: 0px;
+    }
+    .discoverproducts-description{
+        color: black;
+        font-size: 18px;
+    
+    }
+    .line {
+        display: none;
+    }
+    .shop{
+        display: none;
+    }
+    .home{
+        display: none;
+    }
+    }
+@media screen and (min-width:901px){
+.productsdiscover-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.line {
+    display: none;
+}
+.shop{
+    display: none;
+}
+.home{
+    display: none;
+}
+.discoverproducts-heading{
+    color: black;
+    font-size: 38px;
+    font-weight: 600;
+    font-family: "Roboto";
+    margin-bottom: 0px;
+}
+.discoverproducts-description{
+    color: black;
+    font-size: 18px;
+
+}
+.hr{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+}

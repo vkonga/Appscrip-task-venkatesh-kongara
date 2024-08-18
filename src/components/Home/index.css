@@ -1,0 +1,312 @@
+@media screen and (max-width:600px){
+    .home-page-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .home-top-filter-container{
+        display: flex;
+        flex-direction:row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .row-container{
+        display: none;
+        
+    }
+    .home-products-container{
+        flex-wrap: wrap;
+    }
+    .hr-filter{
+        
+        height: 50px;
+        border: 2px solid black;
+    }
+    .product-container{
+        display: flex;
+        flex-direction: column;
+        width: 45vw;
+        height: 60vh;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+        box-shadow: 0 8px 12px 0;
+    }
+    .product-image{
+        width:45vw;
+        height: 30vh;
+    }
+    .product-heading{
+        font-size: 20px;
+        font-weight: 700;
+        font-family: "Roboto";
+        width: 45vw;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        
+    }
+    .product-price-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .filter{
+       display: none;
+    }
+    .home-content-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .filter-section{
+        width: 30vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .filter-section-list{
+        list-style-type:none;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 100%;
+    }
+    .filter-section-title{
+        display: flex;
+        flex-direction: row;
+    }
+    .filter-title{
+        font-size: 20px;
+    }
+    .hr-line{
+        border: 1px solid black;
+        
+    }
+    .hr-l{
+        width: 20vw;
+        margin-left: 40px;
+    }
+    .filter-section-customize{
+        display: flex;
+        flex-direction: row;
+        margin-left: 40px;
+    }
+    .row-small-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .sm-filter{
+        margin-left: 30px;
+        cursor: pointer;
+    }
+    }
+@media screen and (min-width:601px) and (max-width:900px){
+    .home-page-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .home-top-filter-container{
+        display: flex;
+        flex-direction:row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .sm-filter{
+        display: none;
+    }
+    .row-small-container{
+        display: none;
+    }
+    .row-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-left: 40px;
+        cursor: pointer;
+    }
+    .home-products-container{
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .product-container{
+        display: flex;
+        flex-direction: row;
+        
+        flex-wrap: wrap;
+        width: 30vw;
+        height: 60vh;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+        box-shadow: 0 8px 12px 0;
+    }
+    .product-image{
+        width:30vw;
+        height: 30vh;
+    }
+    .product-heading{
+        font-size: 20px;
+        font-weight: 700;
+        font-family: "Roboto";
+        width: 15vw;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        
+    }
+    .product-price-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .filter{
+        color: black;
+        font-size: 15px;
+    }
+    .home-content-container{
+        display: flex;
+        flex-direction: row;
+    }
+    .filter-section{
+        width: 30vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .filter-section-list{
+        list-style-type:none;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .filter-section-title{
+        display: flex;
+        flex-direction: row;
+    }
+    .filter-title{
+        font-size: 20px;
+    }
+    .hr-line{
+        width: 20vw;
+        
+    }
+    .hr-l{
+        width: 20vw;
+        margin-left: 40px;
+    }
+    .filter-section-customize{
+        display: flex;
+        flex-direction: row;
+        margin-left: 40px;
+    }
+    }
+@media screen and (min-width:901px){
+.home-page-container{
+    display: flex;
+    flex-direction: column;
+}
+.sm-filter{
+    display: none;
+}
+.row-small-container{
+    display: none;
+}
+.home-top-filter-container{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+}
+.row-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+    cursor: pointer;
+}
+.home-products-container{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+}
+.product-container{
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    height: 60vh;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    box-shadow: 0 8px 12px 0;
+}
+.product-image{
+    width:25vw;
+    height: 30vh;
+}
+.product-heading{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Roboto";
+    width: 15vw;
+    white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    
+}
+.product-price-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.filter{
+    color: black;
+    font-size: 15px;
+}
+.home-content-container{
+    display: flex;
+    flex-direction: row;
+}
+.filter-section{
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.filter-section-list{
+    list-style-type:none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.filter-section-title{
+    display: flex;
+    flex-direction: row;
+}
+.filter-title{
+    font-size: 20px;
+}
+.hr-line{
+    width: 20vw;
+    
+}
+.hr-l{
+    width: 20vw;
+    margin-left: 30px;
+
+}
+.filter-section-customize{
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+}
+}

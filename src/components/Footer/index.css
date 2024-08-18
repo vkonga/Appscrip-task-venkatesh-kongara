@@ -1,0 +1,287 @@
+/* Small screens (max-width: 600px) */
+@media screen and (max-width: 600px) {
+    .footer-container {
+        background-color: black;
+        width: 100vw;
+    }
+    .footer-row-container {
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+    }
+    .hr-footer {
+        border: 1px solid white;
+        width: 100%;
+    }
+    .display-none {
+        display: none;
+    }
+    .contact-us {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-contact {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-customer {
+        list-style-type: square;
+        margin-left: 20px;
+        color: white;
+        margin-right: 20px;
+    }
+    .toggle-para {
+        display: none;
+    }
+    .footer-signup-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-heading {
+        color: white;
+        font-size: 20px;
+        font-weight: 700;
+        font-family: "Roboto";
+        margin-bottom: 0;
+    }
+    .footer-paragraph {
+        color: white;
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+    .hr-f {
+        display: none;
+    }
+    .sm-footer-contact-container {
+        display: flex;
+        flex-direction: row;
+    }
+    .footer-signup-form-container {
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+    }
+    .footer-input {
+        width: 200px;
+        height: 40px;
+        background-color: white;
+        color: black;
+        border: 0;
+        outline: none;
+    }
+    .footer-follow {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .footer-button {
+        width: 100px;
+        height: 40px;
+        border: 3px solid rgb(56, 53, 53);
+        color: rgb(83, 79, 79);
+        text-align: center;
+        background-color: transparent;
+        margin-left: 30px;
+    }
+    .footer-column-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-currency-container {
+        display: flex;
+        flex-direction: row;
+        margin-top: 10px;
+    }
+    .footer-follow-us {
+        display: flex;
+        flex-direction: row;
+    }
+    .footer-icons {
+        margin-right: 10px;
+    }
+    .footer-copyright-paragraph {
+        color: white;
+        text-align: center;
+        padding-bottom: 40px;
+        margin-top: 40px;
+    }
+    .toggle {
+        display: block;
+    }
+}
+
+/* Medium screens (601px to 900px) */
+@media screen and (min-width: 601px) and (max-width: 900px) {
+    .footer-container {
+        background-color: black;
+        width: 100vw;
+    }
+    .hr-footer {
+        display: none;
+    }
+    .toggle {
+        display: none;
+    }
+    .footer-customer {
+        display: none;
+    }
+    .footer-row-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 20px;
+    }
+    .footer-signup-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .hr-f {
+        color: white;
+        border: 1px solid white;
+    }
+    .footer-heading {
+        color: white;
+        font-size: 20px;
+        font-weight: 700;
+        font-family: "Roboto";
+        margin-bottom: 0;
+    }
+    .footer-paragraph {
+        color: white;
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+    .footer-signup-form-container {
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+    }
+    .footer-input {
+        width: 200px;
+        height: 40px;
+        background-color: white;
+        color: black;
+        border: 0;
+        outline: none;
+    }
+    .footer-button {
+        width: 100px;
+        height: 40px;
+        border: 3px solid rgb(56, 53, 53);
+        color: rgb(83, 79, 79);
+        text-align: center;
+        background-color: transparent;
+        margin-left: 30px;
+    }
+    .footer-column-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-currency-container {
+        display: flex;
+        flex-direction: row;
+        margin-top: 10px;
+    }
+    .footer-follow-us {
+        display: flex;
+        flex-direction: row;
+    }
+    .footer-icons {
+        margin-right: 10px;
+    }
+    .footer-copyright-paragraph {
+        color: white;
+        text-align: center;
+        padding-bottom: 40px;
+        margin-top: 40px;
+    }
+}
+
+/* Large screens (min-width: 901px) */
+@media screen and (min-width: 901px) {
+    .footer-container {
+        background-color: black;
+        width: 100vw;
+    }
+    .toggle {
+        display: none;
+    }
+    .hr-footer {
+        display: none;
+    }
+    .footer-customer {
+        display: none;
+    }
+    .hr-f {
+        border: 1px solid white;
+    }
+    .footer-row-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 20px;
+    }
+    .footer-signup-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-heading {
+        color: white;
+        font-size: 20px;
+        font-weight: 700;
+        font-family: "Roboto";
+        margin-bottom: 0;
+    }
+    .footer-paragraph {
+        color: white;
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+    .footer-signup-form-container {
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+    }
+    .footer-input {
+        width: 200px;
+        height: 40px;
+        background-color: white;
+        color: black;
+        border: 0;
+        outline: none;
+    }
+    .footer-button {
+        width: 100px;
+        height: 40px;
+        border: 3px solid rgb(56, 53, 53);
+        color: rgb(83, 79, 79);
+        text-align: center;
+        background-color: transparent;
+        margin-left: 30px;
+    }
+    .footer-column-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-currency-container {
+        display: flex;
+        flex-direction: row;
+        margin-top: 10px;
+    }
+    .footer-follow-us {
+        display: flex;
+        flex-direction: row;
+    }
+    .footer-icons {
+        margin-right: 10px;
+    }
+    .footer-copyright-paragraph {
+        color: white;
+        text-align: center;
+        padding-bottom: 40px;
+        margin-top: 40px;
+    }
+}
